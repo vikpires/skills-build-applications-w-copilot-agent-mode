@@ -1,0 +1,52 @@
+body {
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333; /* Dark text color */
+}
+
+nav {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffdd57; /* Yellow hover color */
+}
+
+h1, h2, h3, h4, h5 {
+  color: #0056b3; /* Dark blue headings */
+}
+
+button {
+  background-color: #28a745; /* Green buttons */
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+table {
+  background-color: #ffffff; /* White table background */
+  border: 1px solid #dee2e6;
+}
+
+table th {
+  background-color: #007bff; /* Blue table header */
+  color: white;
+}
+
+table td {
+  background-color: #f8f9fa; /* Light gray table cells */
+}
+
+.logo {
+  float: left;
+  margin-right: 10px;
+  height: 50px;
+}
