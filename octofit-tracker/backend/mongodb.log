@@ -1,0 +1,255 @@
+2025-04-14T02:11:18.768+0000 I CONTROL  [initandlisten] MongoDB starting : pid=10036 port=27017 dbpath=/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/mongodb-data 64-bit host=codespaces-f6d66a
+2025-04-14T02:11:18.768+0000 I CONTROL  [initandlisten] db version v3.6.8
+2025-04-14T02:11:18.768+0000 I CONTROL  [initandlisten] git version: 8e540c0b6db93ce994cc548f000900bdc740f80a
+2025-04-14T02:11:18.768+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1f  31 Mar 2020
+2025-04-14T02:11:18.768+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2025-04-14T02:11:18.768+0000 I CONTROL  [initandlisten] modules: none
+2025-04-14T02:11:18.768+0000 I CONTROL  [initandlisten] build environment:
+2025-04-14T02:11:18.768+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2025-04-14T02:11:18.768+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2025-04-14T02:11:18.768+0000 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/mongodb-data" }, systemLog: { destination: "file", path: "/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/mongodb.log" } }
+2025-04-14T02:11:18.768+0000 I STORAGE  [initandlisten] 
+2025-04-14T02:11:18.768+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+2025-04-14T02:11:18.768+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+2025-04-14T02:11:18.768+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7483M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=false,compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2025-04-14T02:11:18.988+0000 I STORAGE  [initandlisten] WiredTiger message [1744596678:988887][10036:0x741d461daac0], txn-recover: Set global recovery timestamp: 0
+2025-04-14T02:11:19.004+0000 I CONTROL  [initandlisten] 
+2025-04-14T02:11:19.004+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2025-04-14T02:11:19.004+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2025-04-14T02:11:19.004+0000 I CONTROL  [initandlisten] 
+2025-04-14T02:11:19.004+0000 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2025-04-14T02:11:19.004+0000 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2025-04-14T02:11:19.004+0000 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2025-04-14T02:11:19.004+0000 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2025-04-14T02:11:19.004+0000 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2025-04-14T02:11:19.004+0000 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2025-04-14T02:11:19.004+0000 I CONTROL  [initandlisten] 
+2025-04-14T02:11:19.004+0000 I CONTROL  [initandlisten] 
+2025-04-14T02:11:19.004+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2025-04-14T02:11:19.004+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2025-04-14T02:11:19.004+0000 I CONTROL  [initandlisten] 
+2025-04-14T02:11:19.005+0000 I STORAGE  [initandlisten] createCollection: admin.system.version with provided UUID: d9fb0503-0f00-47e7-8dc9-d371301930ff
+2025-04-14T02:11:19.012+0000 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.6
+2025-04-14T02:11:19.014+0000 I STORAGE  [initandlisten] createCollection: local.startup_log with generated UUID: 24518469-6084-4069-9035-f86c0f8c3206
+2025-04-14T02:11:19.021+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/mongodb-data/diagnostic.data'
+2025-04-14T02:11:19.021+0000 I STORAGE  [LogicalSessionCacheRefresh] createCollection: config.system.sessions with generated UUID: f78da418-7904-4140-81d2-c23e7422533d
+2025-04-14T02:11:19.021+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2025-04-14T02:11:19.035+0000 I INDEX    [LogicalSessionCacheRefresh] build index on: config.system.sessions properties: { v: 2, key: { lastUse: 1 }, name: "lsidTTLIndex", ns: "config.system.sessions", expireAfterSeconds: 1800 }
+2025-04-14T02:11:19.035+0000 I INDEX    [LogicalSessionCacheRefresh] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:11:19.035+0000 I INDEX    [LogicalSessionCacheRefresh] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:20:20.101+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:48188 #1 (1 connection now open)
+2025-04-14T02:20:20.101+0000 I NETWORK  [conn1] received client metadata from 127.0.0.1:48188 conn1: { driver: { name: "PyMongo", version: "3.11.4" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:20:20.102+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:48200 #2 (2 connections now open)
+2025-04-14T02:20:20.102+0000 I NETWORK  [conn2] received client metadata from 127.0.0.1:48200 conn2: { driver: { name: "PyMongo", version: "3.11.4" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:20:20.104+0000 I NETWORK  [conn1] end connection 127.0.0.1:48188 (1 connection now open)
+2025-04-14T02:20:20.104+0000 I NETWORK  [conn2] end connection 127.0.0.1:48200 (0 connections now open)
+2025-04-14T02:21:22.338+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:49280 #3 (1 connection now open)
+2025-04-14T02:21:22.338+0000 I NETWORK  [conn3] received client metadata from 127.0.0.1:49280 conn3: { driver: { name: "PyMongo", version: "3.11.4" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:21:22.339+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:49284 #4 (2 connections now open)
+2025-04-14T02:21:22.339+0000 I NETWORK  [conn4] received client metadata from 127.0.0.1:49284 conn4: { driver: { name: "PyMongo", version: "3.11.4" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:21:22.348+0000 I STORAGE  [conn4] createCollection: octofit_db.__schema__ with generated UUID: 61d0f67b-758d-4943-a92d-8b12e658b581
+2025-04-14T02:21:22.359+0000 I INDEX    [conn4] build index on: octofit_db.__schema__ properties: { v: 2, unique: true, key: { name: 1 }, name: "name_1", ns: "octofit_db.__schema__" }
+2025-04-14T02:21:22.359+0000 I INDEX    [conn4] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:21:22.360+0000 I INDEX    [conn4] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:21:22.364+0000 I INDEX    [conn4] build index on: octofit_db.__schema__ properties: { v: 2, key: { auto: 1 }, name: "auto_1", ns: "octofit_db.__schema__" }
+2025-04-14T02:21:22.364+0000 I INDEX    [conn4] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:21:22.365+0000 I INDEX    [conn4] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:21:22.366+0000 I STORAGE  [conn4] createCollection: octofit_db.django_migrations with generated UUID: 8a5c1981-53b6-4752-b7ad-1d3368a1c5b7
+2025-04-14T02:21:22.378+0000 I INDEX    [conn4] build index on: octofit_db.django_migrations properties: { v: 2, unique: true, key: { id: 1 }, name: "__primary_key__", ns: "octofit_db.django_migrations" }
+2025-04-14T02:21:22.378+0000 I INDEX    [conn4] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:21:22.378+0000 I INDEX    [conn4] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:21:22.382+0000 I STORAGE  [conn4] createCollection: octofit_db.django_content_type with generated UUID: 02795c9d-0049-4c86-88a6-70914dbd710d
+2025-04-14T02:21:22.394+0000 I INDEX    [conn4] build index on: octofit_db.django_content_type properties: { v: 2, unique: true, key: { id: 1 }, name: "__primary_key__", ns: "octofit_db.django_content_type" }
+2025-04-14T02:21:22.394+0000 I INDEX    [conn4] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:21:22.394+0000 I INDEX    [conn4] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:21:22.403+0000 I INDEX    [conn4] build index on: octofit_db.django_content_type properties: { v: 2, unique: true, key: { app_label: 1, model: 1 }, name: "django_content_type_app_label_model_76bd3d3b_uniq", ns: "octofit_db.django_content_type" }
+2025-04-14T02:21:22.403+0000 I INDEX    [conn4] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:21:22.403+0000 I INDEX    [conn4] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:21:22.406+0000 I NETWORK  [conn3] end connection 127.0.0.1:49280 (1 connection now open)
+2025-04-14T02:21:22.406+0000 I NETWORK  [conn4] end connection 127.0.0.1:49284 (0 connections now open)
+2025-04-14T02:21:40.220+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:55516 #5 (1 connection now open)
+2025-04-14T02:21:40.220+0000 I NETWORK  [conn5] received client metadata from 127.0.0.1:55516 conn5: { driver: { name: "PyMongo", version: "3.11.4" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:21:40.220+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:55530 #6 (2 connections now open)
+2025-04-14T02:21:40.220+0000 I NETWORK  [conn6] received client metadata from 127.0.0.1:55530 conn6: { driver: { name: "PyMongo", version: "3.11.4" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:21:40.238+0000 I NETWORK  [conn5] end connection 127.0.0.1:55516 (1 connection now open)
+2025-04-14T02:21:40.238+0000 I NETWORK  [conn6] end connection 127.0.0.1:55530 (0 connections now open)
+2025-04-14T02:22:23.077+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:53248 #7 (1 connection now open)
+2025-04-14T02:22:23.078+0000 I NETWORK  [conn7] received client metadata from 127.0.0.1:53248 conn7: { driver: { name: "PyMongo", version: "3.11.4" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:22:23.078+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:53258 #8 (2 connections now open)
+2025-04-14T02:22:23.079+0000 I NETWORK  [conn8] received client metadata from 127.0.0.1:53258 conn8: { driver: { name: "PyMongo", version: "3.11.4" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:22:23.085+0000 I NETWORK  [conn7] end connection 127.0.0.1:53248 (1 connection now open)
+2025-04-14T02:22:23.085+0000 I NETWORK  [conn8] end connection 127.0.0.1:53258 (0 connections now open)
+2025-04-14T02:22:29.783+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:53262 #9 (1 connection now open)
+2025-04-14T02:22:29.783+0000 I NETWORK  [conn9] received client metadata from 127.0.0.1:53262 conn9: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:22:29.784+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:53268 #10 (2 connections now open)
+2025-04-14T02:22:29.784+0000 I NETWORK  [conn10] received client metadata from 127.0.0.1:53268 conn10: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:22:29.791+0000 I NETWORK  [conn9] end connection 127.0.0.1:53262 (1 connection now open)
+2025-04-14T02:22:29.791+0000 I NETWORK  [conn10] end connection 127.0.0.1:53268 (0 connections now open)
+2025-04-14T02:22:58.818+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:35724 #11 (1 connection now open)
+2025-04-14T02:22:58.819+0000 I NETWORK  [conn11] received client metadata from 127.0.0.1:35724 conn11: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:22:58.819+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:35738 #12 (2 connections now open)
+2025-04-14T02:22:58.819+0000 I NETWORK  [conn12] received client metadata from 127.0.0.1:35738 conn12: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:22:58.836+0000 I STORAGE  [conn12] createCollection: octofit_db.auth_permission with generated UUID: 2cd114b9-dd6f-4c2a-a9f1-59cee1e81b5a
+2025-04-14T02:22:58.853+0000 I INDEX    [conn12] build index on: octofit_db.auth_permission properties: { v: 2, unique: true, key: { id: 1 }, name: "__primary_key__", ns: "octofit_db.auth_permission" }
+2025-04-14T02:22:58.853+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:58.854+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:58.857+0000 I STORAGE  [conn12] createCollection: octofit_db.auth_group with generated UUID: 7051471b-932a-462a-8e94-1b5b6eb95e1e
+2025-04-14T02:22:58.867+0000 I INDEX    [conn12] build index on: octofit_db.auth_group properties: { v: 2, unique: true, key: { id: 1 }, name: "__primary_key__", ns: "octofit_db.auth_group" }
+2025-04-14T02:22:58.867+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:58.868+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:58.872+0000 I INDEX    [conn12] build index on: octofit_db.auth_group properties: { v: 2, unique: true, key: { name: 1 }, name: "name_1", ns: "octofit_db.auth_group" }
+2025-04-14T02:22:58.872+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:58.872+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:58.874+0000 I STORAGE  [conn12] createCollection: octofit_db.auth_group_permissions with generated UUID: 70931384-89d4-4cdb-9e8a-5acd916e4e4c
+2025-04-14T02:22:58.885+0000 I INDEX    [conn12] build index on: octofit_db.auth_group_permissions properties: { v: 2, unique: true, key: { id: 1 }, name: "__primary_key__", ns: "octofit_db.auth_group_permissions" }
+2025-04-14T02:22:58.885+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:58.886+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:58.892+0000 I STORAGE  [conn12] createCollection: octofit_db.auth_user with generated UUID: f28d59d1-0402-42b2-9ab8-faddcf5c885a
+2025-04-14T02:22:58.903+0000 I INDEX    [conn12] build index on: octofit_db.auth_user properties: { v: 2, unique: true, key: { id: 1 }, name: "__primary_key__", ns: "octofit_db.auth_user" }
+2025-04-14T02:22:58.903+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:58.904+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:58.908+0000 I INDEX    [conn12] build index on: octofit_db.auth_user properties: { v: 2, unique: true, key: { username: 1 }, name: "username_1", ns: "octofit_db.auth_user" }
+2025-04-14T02:22:58.908+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:58.909+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:58.911+0000 I STORAGE  [conn12] createCollection: octofit_db.auth_user_groups with generated UUID: 61e7273c-9cda-4b1a-b890-2e2eb9aa4021
+2025-04-14T02:22:58.921+0000 I INDEX    [conn12] build index on: octofit_db.auth_user_groups properties: { v: 2, unique: true, key: { id: 1 }, name: "__primary_key__", ns: "octofit_db.auth_user_groups" }
+2025-04-14T02:22:58.921+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:58.922+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:58.924+0000 I STORAGE  [conn12] createCollection: octofit_db.auth_user_user_permissions with generated UUID: 6eadceb0-4125-482e-b287-e4c47d374a4c
+2025-04-14T02:22:58.934+0000 I INDEX    [conn12] build index on: octofit_db.auth_user_user_permissions properties: { v: 2, unique: true, key: { id: 1 }, name: "__primary_key__", ns: "octofit_db.auth_user_user_permissions" }
+2025-04-14T02:22:58.934+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:58.935+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:58.940+0000 I INDEX    [conn12] build index on: octofit_db.auth_permission properties: { v: 2, unique: true, key: { content_type_id: 1, codename: 1 }, name: "auth_permission_content_type_id_codename_01ab375a_uniq", ns: "octofit_db.auth_permission" }
+2025-04-14T02:22:58.940+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:58.940+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:58.946+0000 I INDEX    [conn12] build index on: octofit_db.auth_permission properties: { v: 2, key: { content_type_id: 1 }, name: "auth_permission_content_type_id_2f476e4b", ns: "octofit_db.auth_permission" }
+2025-04-14T02:22:58.946+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:58.946+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:58.951+0000 I INDEX    [conn12] build index on: octofit_db.auth_group_permissions properties: { v: 2, unique: true, key: { group_id: 1, permission_id: 1 }, name: "auth_group_permissions_group_id_permission_id_0cd325b0_uniq", ns: "octofit_db.auth_group_permissions" }
+2025-04-14T02:22:58.951+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:58.952+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:58.960+0000 I INDEX    [conn12] build index on: octofit_db.auth_group_permissions properties: { v: 2, key: { group_id: 1 }, name: "auth_group_permissions_group_id_b120cbf9", ns: "octofit_db.auth_group_permissions" }
+2025-04-14T02:22:58.960+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:58.961+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:58.965+0000 I INDEX    [conn12] build index on: octofit_db.auth_group_permissions properties: { v: 2, key: { permission_id: 1 }, name: "auth_group_permissions_permission_id_84c5c92e", ns: "octofit_db.auth_group_permissions" }
+2025-04-14T02:22:58.965+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:58.966+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:58.970+0000 I INDEX    [conn12] build index on: octofit_db.auth_user_groups properties: { v: 2, unique: true, key: { user_id: 1, group_id: 1 }, name: "auth_user_groups_user_id_group_id_94350c0c_uniq", ns: "octofit_db.auth_user_groups" }
+2025-04-14T02:22:58.970+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:58.971+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:58.977+0000 I INDEX    [conn12] build index on: octofit_db.auth_user_groups properties: { v: 2, key: { user_id: 1 }, name: "auth_user_groups_user_id_6a12ed8b", ns: "octofit_db.auth_user_groups" }
+2025-04-14T02:22:58.977+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:58.978+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:58.982+0000 I INDEX    [conn12] build index on: octofit_db.auth_user_groups properties: { v: 2, key: { group_id: 1 }, name: "auth_user_groups_group_id_97559544", ns: "octofit_db.auth_user_groups" }
+2025-04-14T02:22:58.982+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:58.983+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:58.988+0000 I INDEX    [conn12] build index on: octofit_db.auth_user_user_permissions properties: { v: 2, unique: true, key: { user_id: 1, permission_id: 1 }, name: "auth_user_user_permiss_user_id_permission_id_14a6b632_uniq", ns: "octofit_db.auth_user_user_permissions" }
+2025-04-14T02:22:58.988+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:58.989+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:58.995+0000 I INDEX    [conn12] build index on: octofit_db.auth_user_user_permissions properties: { v: 2, key: { user_id: 1 }, name: "auth_user_user_permissions_user_id_a95ead1b", ns: "octofit_db.auth_user_user_permissions" }
+2025-04-14T02:22:58.995+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:58.996+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:59.001+0000 I INDEX    [conn12] build index on: octofit_db.auth_user_user_permissions properties: { v: 2, key: { permission_id: 1 }, name: "auth_user_user_permissions_permission_id_1fbb5f2c", ns: "octofit_db.auth_user_user_permissions" }
+2025-04-14T02:22:59.001+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:59.001+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:59.011+0000 I STORAGE  [conn12] createCollection: octofit_db.django_admin_log with generated UUID: 8134f9be-e28b-4602-86f7-b45800128eaa
+2025-04-14T02:22:59.022+0000 I INDEX    [conn12] build index on: octofit_db.django_admin_log properties: { v: 2, unique: true, key: { id: 1 }, name: "__primary_key__", ns: "octofit_db.django_admin_log" }
+2025-04-14T02:22:59.022+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:59.022+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:59.029+0000 I INDEX    [conn12] build index on: octofit_db.django_admin_log properties: { v: 2, key: { content_type_id: 1 }, name: "django_admin_log_content_type_id_c4bce8eb", ns: "octofit_db.django_admin_log" }
+2025-04-14T02:22:59.029+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:59.030+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:59.035+0000 I INDEX    [conn12] build index on: octofit_db.django_admin_log properties: { v: 2, key: { user_id: 1 }, name: "django_admin_log_user_id_c564eba6", ns: "octofit_db.django_admin_log" }
+2025-04-14T02:22:59.035+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:59.035+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:59.131+0000 I STORAGE  [conn12] createCollection: octofit_db.django_session with generated UUID: d3d827bf-1a3a-40ad-8485-6434419705f9
+2025-04-14T02:22:59.147+0000 I INDEX    [conn12] build index on: octofit_db.django_session properties: { v: 2, unique: true, key: { session_key: 1 }, name: "__primary_key__", ns: "octofit_db.django_session" }
+2025-04-14T02:22:59.147+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:59.148+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:59.153+0000 I INDEX    [conn12] build index on: octofit_db.django_session properties: { v: 2, key: { expire_date: 1 }, name: "django_session_expire_date_a5c62663", ns: "octofit_db.django_session" }
+2025-04-14T02:22:59.153+0000 I INDEX    [conn12] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:22:59.154+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:22:59.227+0000 I NETWORK  [conn11] end connection 127.0.0.1:35724 (1 connection now open)
+2025-04-14T02:22:59.227+0000 I NETWORK  [conn12] end connection 127.0.0.1:35738 (0 connections now open)
+2025-04-14T02:23:10.414+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:59572 #13 (1 connection now open)
+2025-04-14T02:23:10.414+0000 I NETWORK  [conn13] received client metadata from 127.0.0.1:59572 conn13: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:23:10.415+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:59578 #14 (2 connections now open)
+2025-04-14T02:23:10.415+0000 I NETWORK  [conn14] received client metadata from 127.0.0.1:59578 conn14: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:23:10.480+0000 I NETWORK  [conn13] end connection 127.0.0.1:59572 (1 connection now open)
+2025-04-14T02:23:10.480+0000 I NETWORK  [conn14] end connection 127.0.0.1:59578 (0 connections now open)
+2025-04-14T02:23:48.190+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:54530 #15 (1 connection now open)
+2025-04-14T02:23:48.190+0000 I NETWORK  [conn15] received client metadata from 127.0.0.1:54530 conn15: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-14T02:23:48.192+0000 I STORAGE  [conn15] createCollection: octofit_db.users with generated UUID: 5e8ef187-87b0-4f82-bf31-3a4e9e025a51
+2025-04-14T02:23:48.199+0000 I STORAGE  [conn15] createCollection: octofit_db.teams with generated UUID: ce04f6bc-9959-45ad-956d-b6503765c1b8
+2025-04-14T02:23:48.206+0000 I STORAGE  [conn15] createCollection: octofit_db.activity with generated UUID: 90ad819a-abb1-424b-b95c-21c57e2a9b9b
+2025-04-14T02:23:48.213+0000 I STORAGE  [conn15] createCollection: octofit_db.leaderboard with generated UUID: 737e0b75-5277-42b0-a222-e596f416e9f3
+2025-04-14T02:23:48.218+0000 I STORAGE  [conn15] createCollection: octofit_db.workouts with generated UUID: 0ab9920e-2e30-4306-8804-6d98986f1336
+2025-04-14T02:23:48.229+0000 I INDEX    [conn15] build index on: octofit_db.users properties: { v: 2, unique: true, key: { email: 1.0 }, name: "email_1", ns: "octofit_db.users" }
+2025-04-14T02:23:48.229+0000 I INDEX    [conn15] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:23:48.229+0000 I INDEX    [conn15] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:23:48.233+0000 I INDEX    [conn15] build index on: octofit_db.teams properties: { v: 2, unique: true, key: { name: 1.0 }, name: "name_1", ns: "octofit_db.teams" }
+2025-04-14T02:23:48.233+0000 I INDEX    [conn15] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:23:48.234+0000 I INDEX    [conn15] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:23:48.238+0000 I INDEX    [conn15] build index on: octofit_db.activity properties: { v: 2, unique: true, key: { activity_id: 1.0 }, name: "activity_id_1", ns: "octofit_db.activity" }
+2025-04-14T02:23:48.238+0000 I INDEX    [conn15] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:23:48.238+0000 I INDEX    [conn15] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:23:48.242+0000 I INDEX    [conn15] build index on: octofit_db.leaderboard properties: { v: 2, unique: true, key: { leaderboard_id: 1.0 }, name: "leaderboard_id_1", ns: "octofit_db.leaderboard" }
+2025-04-14T02:23:48.242+0000 I INDEX    [conn15] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:23:48.243+0000 I INDEX    [conn15] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:23:48.247+0000 I INDEX    [conn15] build index on: octofit_db.workouts properties: { v: 2, unique: true, key: { workout_id: 1.0 }, name: "workout_id_1", ns: "octofit_db.workouts" }
+2025-04-14T02:23:48.247+0000 I INDEX    [conn15] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-14T02:23:48.247+0000 I INDEX    [conn15] build index done.  scanned 0 total records. 0 secs
+2025-04-14T02:23:48.248+0000 I NETWORK  [conn15] end connection 127.0.0.1:54530 (0 connections now open)
+2025-04-14T02:24:07.646+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:43904 #16 (1 connection now open)
+2025-04-14T02:24:07.646+0000 I NETWORK  [conn16] received client metadata from 127.0.0.1:43904 conn16: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-14T02:24:07.649+0000 I NETWORK  [conn16] end connection 127.0.0.1:43904 (0 connections now open)
+2025-04-14T02:25:01.235+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:39008 #17 (1 connection now open)
+2025-04-14T02:25:01.236+0000 I NETWORK  [conn17] received client metadata from 127.0.0.1:39008 conn17: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:25:01.236+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:39014 #18 (2 connections now open)
+2025-04-14T02:25:01.236+0000 I NETWORK  [conn18] received client metadata from 127.0.0.1:39014 conn18: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:25:01.244+0000 I NETWORK  [conn17] end connection 127.0.0.1:39008 (1 connection now open)
+2025-04-14T02:25:01.244+0000 I NETWORK  [conn18] end connection 127.0.0.1:39014 (0 connections now open)
+2025-04-14T02:25:02.152+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:49994 #19 (1 connection now open)
+2025-04-14T02:25:02.152+0000 I NETWORK  [conn19] received client metadata from 127.0.0.1:49994 conn19: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:25:02.153+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50008 #20 (2 connections now open)
+2025-04-14T02:25:02.153+0000 I NETWORK  [conn20] received client metadata from 127.0.0.1:50008 conn20: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:25:02.217+0000 I NETWORK  [conn19] end connection 127.0.0.1:49994 (1 connection now open)
+2025-04-14T02:25:02.217+0000 I NETWORK  [conn20] end connection 127.0.0.1:50008 (0 connections now open)
+2025-04-14T02:38:25.167+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:51930 #21 (1 connection now open)
+2025-04-14T02:38:25.167+0000 I NETWORK  [conn21] received client metadata from 127.0.0.1:51930 conn21: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:38:25.168+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:51940 #22 (2 connections now open)
+2025-04-14T02:38:25.168+0000 I NETWORK  [conn22] received client metadata from 127.0.0.1:51940 conn22: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:38:25.176+0000 I STORAGE  [conn22] createCollection: octofit_db.octofit_tracker_user with generated UUID: d198ae11-59b0-46f5-87eb-9e851f1f8327
+2025-04-14T02:38:25.192+0000 I STORAGE  [conn22] createCollection: octofit_db.octofit_tracker_team with generated UUID: 8554fee2-9aa7-435f-8492-f4ccc8dbfe15
+2025-04-14T02:38:25.203+0000 I NETWORK  [conn21] end connection 127.0.0.1:51930 (1 connection now open)
+2025-04-14T02:38:25.203+0000 I NETWORK  [conn22] end connection 127.0.0.1:51940 (0 connections now open)
+2025-04-14T02:39:49.979+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:47124 #23 (1 connection now open)
+2025-04-14T02:39:49.979+0000 I NETWORK  [conn23] received client metadata from 127.0.0.1:47124 conn23: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:39:49.980+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:47138 #24 (2 connections now open)
+2025-04-14T02:39:49.980+0000 I NETWORK  [conn24] received client metadata from 127.0.0.1:47138 conn24: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:39:49.989+0000 I NETWORK  [conn23] end connection 127.0.0.1:47124 (1 connection now open)
+2025-04-14T02:39:49.989+0000 I NETWORK  [conn24] end connection 127.0.0.1:47138 (0 connections now open)
+2025-04-14T02:40:04.159+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:43396 #25 (1 connection now open)
+2025-04-14T02:40:04.159+0000 I NETWORK  [conn25] received client metadata from 127.0.0.1:43396 conn25: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:40:04.160+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:43410 #26 (2 connections now open)
+2025-04-14T02:40:04.160+0000 I NETWORK  [conn26] received client metadata from 127.0.0.1:43410 conn26: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:40:04.263+0000 I NETWORK  [conn26] end connection 127.0.0.1:43410 (1 connection now open)
+2025-04-14T02:40:04.263+0000 I NETWORK  [conn25] end connection 127.0.0.1:43396 (0 connections now open)
+2025-04-14T02:40:21.335+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:54718 #27 (1 connection now open)
+2025-04-14T02:40:21.335+0000 I NETWORK  [conn27] received client metadata from 127.0.0.1:54718 conn27: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:40:21.336+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:54724 #28 (2 connections now open)
+2025-04-14T02:40:21.336+0000 I NETWORK  [conn28] received client metadata from 127.0.0.1:54724 conn28: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:40:21.337+0000 I NETWORK  [conn27] end connection 127.0.0.1:54718 (1 connection now open)
+2025-04-14T02:40:21.337+0000 I NETWORK  [conn28] end connection 127.0.0.1:54724 (0 connections now open)
+2025-04-14T02:41:57.422+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:42782 #29 (1 connection now open)
+2025-04-14T02:41:57.422+0000 I NETWORK  [conn29] received client metadata from 127.0.0.1:42782 conn29: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:41:57.422+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:42794 #30 (2 connections now open)
+2025-04-14T02:41:57.422+0000 I NETWORK  [conn30] received client metadata from 127.0.0.1:42794 conn30: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:41:57.425+0000 I NETWORK  [conn29] end connection 127.0.0.1:42782 (1 connection now open)
+2025-04-14T02:41:57.425+0000 I NETWORK  [conn30] end connection 127.0.0.1:42794 (0 connections now open)
+2025-04-14T02:42:27.668+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:41064 #31 (1 connection now open)
+2025-04-14T02:42:27.668+0000 I NETWORK  [conn31] received client metadata from 127.0.0.1:41064 conn31: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:42:27.669+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:41080 #32 (2 connections now open)
+2025-04-14T02:42:27.669+0000 I NETWORK  [conn32] received client metadata from 127.0.0.1:41080 conn32: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-14T02:42:27.674+0000 I NETWORK  [conn31] end connection 127.0.0.1:41064 (1 connection now open)
+2025-04-14T02:42:27.674+0000 I NETWORK  [conn32] end connection 127.0.0.1:41080 (0 connections now open)
